@@ -14,7 +14,7 @@
 /* COMMON */
 /* Typography */
 body {
-    font-family: 'Montserrat' sans-serif
+    font-family: 'Montserrat', sans-serif
 }
 
 /* UTILITIES */
@@ -63,5 +63,25 @@ body {
     width: 100%;
     height: 100px;
     background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
+}
+
+.nav-bar {
+    width: 100%;
+    height: 5%;
+    background-color: lightslategray;
+    
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: calc(100% / 6);
 }
