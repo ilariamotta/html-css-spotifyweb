@@ -26,6 +26,7 @@ body {
     height: calc(100% - 150px);
     background-color: darkblue;
     display: flex;
+    flex-direction: row;
 }
 
 /* BOTTOM */
@@ -40,15 +41,27 @@ body {
 
 .sidebar {
     width: 10%;
-    height: calc (100% - 150px);
+    height: 100%;
     background-color: black;
 
+
 }
+
 
 /* MAIN */
 
 .main-content {
     width: 90%;
-    height: calc (100% - 150px);
+    height: 100%;
     background-color: slategrey;
+    overflow-y: auto;
+
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+
 }
