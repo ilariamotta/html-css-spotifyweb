@@ -13,8 +13,14 @@
 
 /* COMMON */
 /* Typography */
+
 body {
     font-family: 'Montserrat', sans-serif
+}
+
+h1 {
+    color: white;
+    padding: 20px;
 }
 
 /* UTILITIES */
@@ -88,3 +94,25 @@ body {
     list-style: none;
     gap: calc(100% / 6);
 }
+
+/* content */
+
+.card-box {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.card {
+    background-color: aliceblue;
+    width: 20vh;
+    height: 30vh;
+    
+}
+
