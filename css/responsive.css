@@ -39,6 +39,11 @@
     .nav-bar {
         height: 60px;
     }
+
+    .cardbox {
+        justify-content: flex-start;
+        
+    }
 }
 
 /* DESKTOP-LG */
