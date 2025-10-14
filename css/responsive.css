@@ -3,18 +3,32 @@
 /* MOBILE-S */
 @media screen and (min-width:600px) {
     .sidebar {
-        width: 45%;
+        width: 40%;
     }
 
     .nav-bar {
         height: 80px;
+    }
+
+    .main-content {
+        width: 60%;
     }
 }
 
 /* TABLET-MD */
 
 @media screen and (min-width: 700px) {
-    
+   
+    .sidebar {
+        width: 25%;
+    }    
+    .main-content {
+        width: 75%;
+    }
+
+    .nav-bar {
+        height: 60px;
+    }
 }
 /* DESKTOP-LG */
 
