@@ -13,13 +13,42 @@
 
 /* COMMON */
 /* Typography */
-body{
+body {
     font-family: 'Montserrat' sans-serif
 }
+
 /* UTILITIES */
 
 
 /* TOP */
+.top {
+    width: 100%;
+    height: calc(100% - 150px);
+    background-color: darkblue;
+    display: flex;
+}
+
 /* BOTTOM */
+
+.bottom {
+    width: 100%;
+    height: 150px;
+    background-color: darkgray;
+}
+
 /* SIDEBAR */
+
+.sidebar {
+    width: 10%;
+    height: calc (100% - 150px);
+    background-color: black;
+
+}
+
 /* MAIN */
+
+.main-content {
+    width: 90%;
+    height: calc (100% - 150px);
+    background-color: slategrey;
+}
