@@ -80,9 +80,36 @@ h3 {
     color: white;
     display: flex;
     flex-direction: column;
-
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
 }
+
+.icon {
+    width: 35px;
+}
+
+.icon-sidefooter {
+    width: 20px;
+}
+
+.sidebar hr {
+    width: 100%;
+    display: none;
+}
+
+.navside-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.navside-footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
 
 
 /* MAIN */
