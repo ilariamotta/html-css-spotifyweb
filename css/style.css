@@ -1,6 +1,9 @@
 :root {
     --sidebar-width: 60px;
     --footer-height: 150px;
+    --white-color: white;
+    --padding-titles: 3px 20px;
+    --grey-color: grey;
 }
 
 /* DEBUG */
@@ -28,9 +31,23 @@ body {
 }
 
 h1 {
-    color: white;
-    padding: 20px;
+    color: var(--white-color);
+    padding: var(--padding-titles);
 }
+
+h2 {
+    color: var(--white-color);
+    padding: var(--padding-titles);
+}
+
+h3 {
+    color: var(--grey-color);
+    padding: var(--padding-titles);
+    font-size: 0.5rem;
+
+}
+
+
 
 /* UTILITIES */
 
@@ -73,7 +90,7 @@ h1 {
 .main-content {
     width: calc(100% - var(--sidebar-width));
     /* height: calc(100vh - 150px); */
-    background-color: slategrey;
+    background-color: rgb(104, 104, 104);
     overflow-y: auto;
 
 
