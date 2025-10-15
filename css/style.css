@@ -73,6 +73,7 @@ h6 {
     color: var(--white-color);
     font-size: 1rem;
     font-weight: 900;
+    padding: 3px 0;
 }
 
 .lista-playlist {
@@ -289,6 +290,7 @@ a {
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 10px 10px;
 
 }
 
