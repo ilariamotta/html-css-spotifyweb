@@ -2,25 +2,28 @@
 
 /* MOBILE-S */
 @media screen and (min-width:600px) {
-    .sidebar {
-        width: 35%;
+    :root {
+        --sidebar-width: 200px;
     }
+
+    /* .sidebar {
+        width: 200px;
+    } */
 
     .nav-bar {
         height: 80px;
     }
 
-    .main-content {
-        width: 65%;
-    }
+    /* .main-content {
+        width: calc(100% - 200px);
+    } */
 
-    .cardbox {
+    /* .card-box {
         justify-content: space-around;
-    }
+    } */
 
     .card {
-        width: 10vh;
-        height: 20vh;
+        width: calc(100% / 2 - (10px * 2)) min-height: 200px;
     }
 }
 
@@ -40,10 +43,16 @@
         height: 60px;
     }
 
-    .cardbox {
+    .card-box {
         justify-content: flex-start;
-        
+
     }
+
+    .card {
+        width: calc(100% / 4 - (10px * 3) / 4);
+    }
+
+
 }
 
 /* DESKTOP-LG */
@@ -65,5 +74,9 @@
     .nav-bar ul {
         flex-wrap: nowrap;
         gap: 40px;
+    }
+
+    .card {
+        width: calc(100% / 6 - (10px * 5) / 6);
     }
 }
