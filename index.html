@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/responsive.css" type="text/css">
 </head>
@@ -17,75 +18,99 @@
             <!-- sidebar -->
             <div class="sidebar">
                 <div class="navside-top"><a href=""><img src="./img/logo-small.svg" alt="spotify icon small"
-                            class="icon-logo" id="spotify-small"><a href=""><img src="./img/logo.svg" alt="spotify logo grande" id="spotify-big"></a></a>
+                            class="icon-logo" id="spotify-small"><a href=""><img src="./img/logo.svg"
+                                alt="spotify logo grande" id="spotify-big"></a></a>
                     <ul>
-                        <li><a href=""><img src="./img/home.svg" alt="homepage" class="icon"></a><span class="text">Home</span></li>
-                        <li><a href=""><img src="./img/search.svg" alt="ricerca" class="icon"></a><span class="text">Cerca</span></li>
-                        <li><a href=""><img src="./img/libreria.svg" alt="libreria" class="icon"></a><span class="text">La tua libreria</span></li>
+                        <li><a href=""><img src="./img/home.svg" alt="homepage" class="icon"></a><span
+                                class="text">Home</span></li>
+                        <li><a href=""><img src="./img/search.svg" alt="ricerca" class="icon"></a><span
+                                class="text">Cerca</span></li>
+                        <li><a href=""><img src="./img/libreria.svg" alt="libreria" class="icon"></a><span
+                                class="text">La tua libreria</span></li>
                     </ul>
-                <h4>Playlist</h4></div>
-                <div class="square"></div>
-                    <div class="navside-footer">
-                        <a href=""><img src="./img/download.svg" alt="scaricare" class="icon-sidefooter"></a>
-                    
-                    <hr>
-                    <a href=""><img src="./img/profile.svg" alt="il tuo profilo" class="icon-sidefooter"></a></div>
+                    <h4>Playlist</h4>
                 </div>
-            <!-- sidebar -->
-            <!-- main content -->
-            <div class="main-content">
-                <div class="header"><a href="">upgrade</a></div>
-                <div class="nav-bar">
-                    <ul>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem</a></li>
-                        <li><a href="">lorem</a></li>
+                <div class="playlist-listflex">
+                    <div class="playlist">
+                        <div class="square"><i class="fa-solid fa-plus" id="plus-icon"></i></div>
+                        <h5>Crea Playlist</h5>
+                    </div>
+                    <ul class="lista-playlist">
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
                     </ul>
-                </div>
-                <!-- Recently played -->
-                <div class="album">
-                    <h1>Recently Played</h1>
-                    <div class="card-box">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                    </div>
-                </div>
-                <!-- Recently played -->
-                <!-- John Doe -->
-                <div class="album">
-                    <h2>Creato per John Doe</h2>
-                    <h3>Più ascolti, più saranno accurati i suggerimenti.</h3>
-                    <div class="card-box">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                    </div>
-                </div>
-                <!-- John Doe -->
-                <!-- Artist -->
-                <div class="album">
-                    <h2>Artisti più popolari</h2>
-                    <h3>Più ascolti, più saranno accurati i suggerimenti.</h3>
-                    <div class="card-box">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                    </div>
-                </div>
-                <!-- Artist -->
 
+                </div>
+                <div class="navside-footer">
+                    <div class="flex-row"><a href=""><img src="./img/download.svg" alt="scaricare"
+                                class="icon-sidefooter"></a><span class="sidefooter-display">Installa app</span></div>
+                    <hr>
+                    <div class="flex-row"><a href="">
+                            <div class="round"><img src="./img/profile.svg" alt="il tuo profilo" class="icon-sidefooter">
+                        </a></div><span class="sidefooter-display bold">John Doe</span>
+                </div>
             </div>
-            <!-- main content -->
-            <!-- top content -->
         </div>
-        <!-- bottom content -->
-        <div class="bottom"></div>
-        <!-- bottom content -->
+        <!-- sidebar -->
+        <!-- main content -->
+        <div class="main-content">
+            <div class="header"><a href="">upgrade</a></div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="">lorem</a></li>
+                    <li><a href="">lorem</a></li>
+                    <li><a href="">lorem</a></li>
+                    <li><a href="">lorem</a></li>
+                    <li><a href="">lorem</a></li>
+                    <li><a href="">lorem</a></li>
+                </ul>
+            </div>
+            <!-- Recently played -->
+            <div class="album">
+                <h1>Recently Played</h1>
+                <div class="card-box">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
+            <!-- Recently played -->
+            <!-- John Doe -->
+            <div class="album">
+                <h2>Creato per John Doe</h2>
+                <h3>Più ascolti, più saranno accurati i suggerimenti.</h3>
+                <div class="card-box">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
+            <!-- John Doe -->
+            <!-- Artist -->
+            <div class="album">
+                <h2>Artisti più popolari</h2>
+                <h3>Più ascolti, più saranno accurati i suggerimenti.</h3>
+                <div class="card-box">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
+            <!-- Artist -->
+
+        </div>
+        <!-- main content -->
+        <!-- top content -->
+    </div>
+    <!-- bottom content -->
+    <div class="bottom"></div>
+    <!-- bottom content -->
 
     </div>
 </body>

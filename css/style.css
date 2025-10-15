@@ -28,6 +28,9 @@ img {
 }
 
 /* COMMON */
+
+
+
 /* Typography */
 
 body {
@@ -58,8 +61,36 @@ h4 {
     display: none;
 }
 
+h5 {
+    color: var(--grey-color);
+    padding-left: 5px;
+    font-size: 0.9rem;
+}
+
+.lista-playlist {
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: var(--grey-color);
+}
+
+.bold {
+font-weight: 900;
+}
+
+
 /* UTILITIES */
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.sidefooter-display {
+    display: none;
+}
 
 /* TOP */
 .top {
@@ -86,8 +117,9 @@ h4 {
 }
 
 .text {
-    display: none; 
+    display: none;
 }
+
 .sidebar {
     width: var(--sidebar-width);
     /* height: 100%; */
@@ -104,8 +136,37 @@ h4 {
     background-color: grey;
     width: 5vw;
     aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
 
+.round {
+    background-color: grey;
+    width: 5vw;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.playlist-listflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    display: none;
+}
+
+.lista-playlist li {
+    padding: 10px
+}
 
 .icon {
     width: 35px;
@@ -115,10 +176,6 @@ h4 {
     width: 20px;
 }
 
-.sidebar hr {
-    width: 100%;
-    display: none;
-}
 
 .navside-top {
     display: flex;
@@ -130,6 +187,12 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    row-gap: 8px;
+}
+
+.sidebar hr {
+    width: 20px;
+    color: var(--grey-color);
 }
 
 
@@ -202,3 +265,4 @@ h4 {
     min-height: 200px;
 
 }
+

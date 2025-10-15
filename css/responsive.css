@@ -5,31 +5,62 @@
     :root {
         --sidebar-width: 200px;
     }
-/* sidebar */
 
-#spotify-small {
-    display: none;
-    padding: 10px;
-}
+    /* sidebar */
 
-#spotify-big {
-    display: block;
-    width: 160px;
-    padding: 5px 0;
-}
+    #spotify-small {
+        display: none;
+        padding: 10px;
+    }
 
-.text {
-    display: inline-block;
-    
-}
+    #spotify-big {
+        display: block;
+        width: 160px;
+        padding: 5px 0;
+    }
 
-h4 {
-    display: inline-block;
-}
+    .text {
+        display: inline-block;
+
+    }
+
+    h4 {
+        display: inline-block;
+    }
 
     .nav-bar {
         height: 80px;
     }
+
+    .square {
+        display: flex;
+    }
+
+    .round {
+        display: flex;
+    }
+
+    .sidebar {
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+
+    .playlist-listflex {
+        display: flex;
+    }
+
+    .sidefooter-display {
+        display: inline;
+    }
+
+    .sidebar hr {
+        width: 100px;
+    }
+
+
+
+    /* main */
+
 
     /* .main-content {
         width: calc(100% - 200px);
