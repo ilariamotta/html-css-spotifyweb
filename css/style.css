@@ -131,6 +131,10 @@ a {
     border-radius: 50%;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 .btn {
     border: 1.5px solid white;
     border-radius: 30px;
@@ -289,7 +293,7 @@ a {
 }
 
 .card {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     width: calc(100% / 2 - (10px * 2));
     min-height: 200px;
     text-align: center;
