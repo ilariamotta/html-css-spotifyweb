@@ -69,6 +69,12 @@ h5 {
     font-size: 0.9rem;
 }
 
+h6 {
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
 .lista-playlist {
     font-size: 0.8rem;
     font-weight: 900;
@@ -286,5 +292,6 @@ a {
     background-color: aliceblue;
     width: calc(100% / 2 - (10px * 2));
     min-height: 200px;
+    text-align: center;
 
 }
