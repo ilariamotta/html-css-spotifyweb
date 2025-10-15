@@ -5,10 +5,27 @@
     :root {
         --sidebar-width: 200px;
     }
+/* sidebar */
 
-    /* .sidebar {
-        width: 200px;
-    } */
+#spotify-small {
+    display: none;
+    padding: 10px;
+}
+
+#spotify-big {
+    display: block;
+    width: 160px;
+    padding: 5px 0;
+}
+
+.text {
+    display: inline-block;
+    
+}
+
+h4 {
+    display: inline-block;
+}
 
     .nav-bar {
         height: 80px;
