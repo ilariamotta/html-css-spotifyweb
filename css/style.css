@@ -19,9 +19,6 @@ img {
     max-width: 100%;
 }
 
-#spotify-big {
-    display: none;
-}
 
 .wrapper {
     width: 100%;
@@ -42,6 +39,7 @@ body {
 h1 {
     color: var(--white-color);
     padding: var(--padding-titles);
+    margin-top: 30px;
 }
 
 h2 {
@@ -52,13 +50,14 @@ h2 {
 h3 {
     color: var(--grey-color);
     padding: var(--padding-titles);
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 
 }
 
 h4 {
     text-transform: uppercase;
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 1rem;
     display: none;
 }
@@ -72,13 +71,13 @@ h5 {
 h6 {
     color: var(--white-color);
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 700;
     padding: 3px 0;
 }
 
 .lista-playlist {
     font-size: 0.8rem;
-    font-weight: 900;
+    font-weight: 700;
     color: var(--grey-color);
 }
 
@@ -88,7 +87,7 @@ h6 {
 
 .uppercase {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 0.9rem;
 }
 
@@ -97,15 +96,41 @@ a {
     color: var(--white-color);
 }
 
+#app {
+    color: var(--grey-color);
+}
+
+#plus-icon {
+    color: var(--black-color);
+}
+
 
 /* UTILITIES */
+
+#spotify-big {
+    display: none;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+#spotify-small {
+    margin-bottom: 10px;
+}
+
+.sidebar hr {
+    width: 20px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: var(--grey-color);
+    display: block;
+    border: 0;
+}
 
 .flex-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 5px;
 }
 
 .sidefooter-display {
@@ -124,7 +149,7 @@ a {
 
 .round {
     background-color: grey;
-    width: 5vw;
+    width: 30px;
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -156,13 +181,7 @@ a {
 
 }
 
-/* BOTTOM */
 
-.bottom {
-    width: 100%;
-    height: var(--footer-height);
-    background-color: darkgray;
-}
 
 /* SIDEBAR */
 .sidebar ul {
@@ -225,10 +244,7 @@ a {
     row-gap: 8px;
 }
 
-.sidebar hr {
-    width: 20px;
-    color: var(--grey-color);
-}
+
 
 
 
@@ -264,6 +280,12 @@ a {
 
 }
 
+.nav-bar a {
+    color: var(--grey-color);
+}
+
+
+
 .nav-bar ul {
     display: flex;
     flex-direction: row;
@@ -275,7 +297,7 @@ a {
     padding: 20px 2px;
     gap: 20px 20px;
     font-size: 0.8rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 /* content */
@@ -300,4 +322,12 @@ a {
     min-height: 200px;
     text-align: center;
 
+}
+
+/* BOTTOM */
+
+.bottom {
+    width: 100%;
+    height: var(--footer-height);
+    background-color: #282828;
 }

@@ -54,7 +54,12 @@
     }
 
     .sidebar hr {
-        width: 100px;
+        width: 150px;
+    }
+
+    .flex-row {
+        column-gap: 5px;
+        text-align: center;
     }
 
 
