@@ -26,9 +26,19 @@ img {
     /* background-color: aqua; */
 }
 
+
 /* COMMON */
 
+.flex {
+    display: flex;
+}
 
+.bar {
+    background-color: slategray;
+    width: 50%;
+    height: 4px;
+    border-radius: 30px;
+}
 
 /* Typography */
 
@@ -66,6 +76,7 @@ h5 {
     color: var(--grey-color);
     padding-left: 5px;
     font-size: 0.9rem;
+
 }
 
 h6 {
@@ -98,10 +109,31 @@ a {
 
 #app {
     color: var(--grey-color);
+    vertical-align: middle;
 }
 
 #plus-icon {
     color: var(--black-color);
+    vertical-align: middle;
+}
+
+.navside-top li {
+    color: var(--grey-color);
+}
+
+.title {
+    color: var(--white-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+    vertical-align: middle;
+
+}
+
+.sub {
+    color: var(--grey-color);
+    font-size: 0.7rem;
+    font-weight: 700;
+    vertical-align: middle;
 }
 
 
@@ -122,7 +154,7 @@ a {
     height: 1px;
     margin: 0 auto;
     background-color: var(--grey-color);
-    display: block;
+    display: inline-block;
     border: 0;
 }
 
@@ -170,6 +202,10 @@ a {
 
 }
 
+.right i {
+    color: var(--white-color);
+}
+
 /* TOP */
 .top {
     width: 100%;
@@ -204,11 +240,15 @@ a {
     padding: 5px;
 }
 
+.sidebar img {
+    opacity: 0.7;
+}
 
 
 .playlist {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .playlist-listflex {
@@ -219,21 +259,29 @@ a {
 }
 
 .lista-playlist li {
-    padding: 10px
+    padding: 10px;
+
+}
+
+.lista-playlist a {
+    color: var(--grey-color);
 }
 
 .icon {
     width: 35px;
+    vertical-align: middle;
 }
 
 .icon-sidefooter {
     width: 20px;
+    vertical-align: middle;
 }
 
 
 .navside-top {
     display: flex;
     flex-direction: column;
+    vertical-align: middle;
 }
 
 .navside-footer {
@@ -330,4 +378,56 @@ a {
     width: 100%;
     height: var(--footer-height);
     background-color: #282828;
+    justify-content: space-between;
+}
+
+#current-album {
+    display: inline-block;
+    aspect-ratio: 1 / 1;
+}
+
+.info {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icons {
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: var(--white-color);
+    opacity: 0.6;
+    vertical-align: middle;
+
+}
+
+.bottom img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.left {
+    width: 150px;
+    background-color: blue;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0 5px;
+}
+
+.right {
+    width: 150px;
+    background-color: blue;
+    align-items: center;
+    gap: 4px;
+    padding: 0 5px;
+}
+
+.player {
+    width: 40%;
+    background-color: fuchsia;
 }
