@@ -89,6 +89,18 @@ img {
     color: var(--white-color);
 }
 
+.lista-playlist :hover {
+    color: var(--white-color);
+}
+
+.home-list :hover {
+    color: var(--white-color);
+}
+
+.square :hover {
+    background-color: var(--white-color);
+}
+
 
 
 /* Typography */
