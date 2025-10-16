@@ -38,6 +38,7 @@ img {
     width: 50%;
     height: 4px;
     border-radius: 30px;
+    vertical-align: middle;
 }
 
 /* Typography */
@@ -143,6 +144,12 @@ a {
 
 .player-top #play {
     font-size: 2rem;
+}
+
+.player-bottom span {
+    color: var(--white-color);
+    font-weight: 500;
+    vertical-align: middle;
 }
 
 
@@ -436,13 +443,23 @@ button {
 
 .player {
     width: 40%;
-    background-color: blueviolet;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
 
 }
 
 .player-top {
     width: 100%;
-    height: 80px;
+
     justify-content: space-around;
     align-items: center;
+}
+
+.player-bottom {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+
 }
