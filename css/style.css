@@ -68,6 +68,10 @@ img {
   opacity: 1;
 }
 
+.nav-bar a:hover {
+    color: var(--white-color);
+}
+
 
 
 /* Typography */
