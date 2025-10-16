@@ -1,11 +1,12 @@
 :root {
     --sidebar-width: 60px;
-    --footer-height: 150px;
+    --footer-height: 100px;
     --white-color: white;
     --padding-titles: 3px 20px;
     --grey-color: grey;
     --black-color: black;
     --darkblue-color: #141922;
+    --bar-color: #5a5a5a;
 }
 
 /* DEBUG */
@@ -34,7 +35,7 @@ img {
 }
 
 .bar {
-    background-color: slategray;
+    background-color: var(--bar-color);
     width: 50%;
     height: 4px;
     border-radius: 30px;
@@ -143,13 +144,18 @@ a {
 }
 
 .player-top #play {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .player-bottom span {
     color: var(--white-color);
     font-weight: 500;
     vertical-align: middle;
+    font-size: 0.6rem;
+}
+
+.right i {
+    font-size: 0.8rem;
 }
 
 
@@ -170,7 +176,7 @@ a {
     height: 1px;
     margin: 0 auto;
     background-color: var(--grey-color);
-    display: inline-block;
+    display: none;
     border: 0;
 }
 
@@ -436,9 +442,11 @@ button {
 
 .right {
     width: 150px;
+    justify-content: flex-start;
     align-items: center;
-    gap: 4px;
+    column-gap: 6px;
     padding: 0 5px;
+    vertical-align: middle;
 }
 
 .player {
@@ -451,9 +459,9 @@ button {
 
 .player-top {
     width: 100%;
-
     justify-content: space-around;
     align-items: center;
+
 }
 
 .player-bottom {
