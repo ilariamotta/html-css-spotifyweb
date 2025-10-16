@@ -66,6 +66,8 @@
         display: inline-block
     }
 
+    
+
 
 
     /* main */
@@ -102,6 +104,10 @@
 
     .bar {
         width: 70%;
+    }
+
+    .bar-volume {
+        width: 80px;
     }
 }
 
@@ -152,6 +158,10 @@
     .bar {
         width: 90%;
     }
+
+    .bar-volume {
+        width: 100px;
+    }
 }
 
 /* DESKTOP-LG */
@@ -190,5 +200,9 @@
 
     .left {
         width: 250px;
+    }
+
+    .bar-volume {
+        width: 120px;
     }
 }
